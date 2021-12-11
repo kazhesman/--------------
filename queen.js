@@ -22,30 +22,30 @@ function play(values) {
     alert("u");
     card = values.pop();
     alert(card);
-    // if (card == "Q"){
-    //   alert("u win");
-    //   break;
-    // }
+     if (card == "Q"){
+       alert("u win");
+       break;
+     }
     } else {
       alert("I");
       card = values.pop();
       alert(card);
-      // if (card == "Q"){
-      //   alert("I win");
-      //   break;
-      // }
+       if (card == "Q"){
+         alert("I win");
+         break;
+       }
 
     }
-    if (card == "Q") {
-      if (turn % 2 != 0){
-        alert("u win");
-        break;
-      } else {
-        alert("i win");
-        break;
-      }
-      break;
-    }
+    // if (card == "Q") {
+    //   if (turn % 2 != 0){
+    //     alert("u win");
+    //     break;
+    //   } else {
+    //     alert("i win");
+    //     break;
+    //   }
+    //   break;
+    // }
   }
  
 }
