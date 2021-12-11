@@ -1,5 +1,6 @@
 let tick = true;
 let t;
+let d = new Date();
 function ticker(time) {
   let d1 = new Date();
   let dif = (d1.getTime() - d.getTime()) / 1000;
@@ -22,6 +23,7 @@ function ticker(time) {
 
 //let d = new Date();
 //let time;
-t = setInterval(ticker.bind(this, 10), 1000);
+let i = +prompt("sec");
+t = setInterval(ticker.bind(this, i), 1000);
 
 
